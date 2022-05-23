@@ -1,5 +1,8 @@
 <h2>About</h2>
-This repository stores various files and models made by me, to be used with the <a href="https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker">SlimeVR project</a><br><br>
+This repository stores various files and models made by me, to be used with the <a href="https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker">SlimeVR project</a>
+<br>
+Some of the things in here are WIP so take that into account.
+<br><br>
 
 <h2>Quick navigation</h2>
 <ul>
@@ -67,6 +70,7 @@ When you print the dock, you need to pause the print at the layer height (for ex
 In order for the trackers to work with the dock we need to add two contact rails at the bottom, we will use a copper tape for this (and a diode!) to protect against reverse polarity. We will also need to embed a thin piece of magnetic metal at the bottom of the tracker, so the magnets in the dock can grab onto it. (Using magnets in the tracker case is not recommend, so they don't mess with the IMUs,
 however the magnetic metal you will be using can get magnetized by the magnets, and possibly  mess with the magnetometer on the IMU, although i'm not really sure, so be aware of that. I am using BNOs and haven't noticed any issues so far.)
 If you are experienced with electronics diy, you will be able to do all of this easily, if not, then either let someone help you, or wait for me to make a tutorial, where I show you how to do it properly. Basically  the only danger here is using a power source than can't handle a short, or shorting the power rails with a metal thing and the metal thing getting hot dues to that.
+<br>
 <i>Any maintenance?</i><br>
 I haven't used the dock for a very long time, but it's possible the contacts could get dirty over time and stop conducting, so you would need to clean them, however since I haven't been using the dock for long I can't say if this will be an issue or not.
 
