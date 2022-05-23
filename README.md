@@ -24,6 +24,7 @@ The lid for the cases has to be printed while standing on its side, otherwise th
 <h2 id="buckles">Belt buckles</h2>
 STL files for the buckles you can use to attach the trackers. <a href="buckles">Download here</a><br><br>
 <img src="images/buckle.jpg" style="width: 300px;">
+<img src="images/buckleExtension.jpg" style="width: 300px;"> 
 
 https://user-images.githubusercontent.com/106062742/169873555-18927d53-8dc6-4269-aad9-062308e2c8dd.mp4
 
