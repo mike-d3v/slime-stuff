@@ -55,8 +55,8 @@ The voltage will depend on the way you normally charge your tracker. If you are 
 likely set to use 1A of charging current, which would mean that for 5 trackers you would need a power source that can supply at least 5A. If you have say 10 trackers, then getting your hands on a 10A power source could be tricky, so an easy solution is to build 2 separate 5slot docks. (Plus I don't recommend power sources that can output large amounts of current, because remember: light bulb) <br>
 <i>What position i can mount this in?</i><br>
 I recommend either hanging it on the wall or placing it flat on the table. You could probably mount it upside down as well, but you have to test it first.<br>
-<i>Do I have to take the belts off the trackers to charge them?</i><br>
-Nope, you can charge them with the straps on.
+<i>Do I have to remove the straps from the trackers to charge them on the dock?</i><br>
+Nope, you can charge them with the straps on.<br>
 <i>What tracker cases is this compatible with?</i><br>
 Out of the box it's compatible only with my case design (see above), however modifying  other cases to work with it should not be too hard.<br>
 <i>How can I build the dock?</i><br>
@@ -69,7 +69,7 @@ however the magnetic metal you will be using can get magnetized by the magnets, 
 If you are experienced with electronics diy, you will be able to do all of this easily, if not, then either let someone help you, or wait for me to make a tutorial, where I show you how to do it properly. Basically  the only danger here is using a power source than can't handle a short, or shorting the power rails with a metal thing and the metal thing getting hot dues to that.
 
 <h2 id="tracker-pcb">Tracker PCB</h2>
-Kicad + gerber files for the PCB fab. <br> he version 1.0 of the PCB is outdated, I made a version 2.0 which is much smaller (about 4x4cm) and has improved design. <a href="tracker-pcb">Download v2.0 here</a> (coming soon)<br><br>
+Kicad + gerber files for the PCB fab. <br> The version 1.0 of the PCB is outdated, I made a version 2.0 which is much smaller (about 4x4cm) and has improved design. <a href="tracker-pcb">Download v2.0 here</a> (coming soon)<br><br>
 <img src="images/pcb.jpg" style="width: 500px;"> 
 <br>
 I made a simple PCB which allows you to make a SlimeVR tracker by using the off the shelf TP4056 module,  BNO85 (or MPU6050) module and an ESP32, along with lipo battery.
