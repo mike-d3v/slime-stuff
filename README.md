@@ -11,7 +11,7 @@ This repository stores various files and models made by me, to be used with the 
 
 <h2 id="case">Tracker case</h2>
 STL files for the tracker case. <a href="cases">Download here</a> (coming soon)<br><br>
-<img src="images/case.jpg" style="max-width: 300px;"><br>
+<img src="images/case.jpg" style="width: 300px;"><br>
 The case in the photo is a case I custom designed to be used with my PCB, however since i got a few requests for it, I will make a community version of this that will fit the standard DIY parts that people use to make trackers. <br>
 This case is compatible with the charging dock.<br><br>
 
@@ -20,8 +20,11 @@ The lid for the cases has to be printed while standing on its side, otherwise th
 
 <h2 id="buckles">Belt buckles</h2>
 STL files for the buckles you can use to attach the trackers. <a href="buckles">Download here</a><br><br>
-<img src="images/buckle.jpg" style="max-width: 300px;">
-<video src="images/buckle.mp4" style="max-width: 200px;" controls="true"></video><br><br>
+<img src="images/buckle.jpg" style="width: 300px;">
+
+https://user-images.githubusercontent.com/106062742/169873555-18927d53-8dc6-4269-aad9-062308e2c8dd.mp4
+
+<br>
 
 <b>How to print:</b><br>
 Print both pieces standing on their side. 
@@ -30,7 +33,7 @@ I recommend using a raft but it's optional.<br>
 There are several sizes of the secondary buckle piece included, I recommend using the one that gives a nice tight fit for the belt you are using, in order to prevent the belt from loosening over time. The best way is to print out all of them and test which one works best for you.
 <br><br>
 The buckle is designed for a 38mm wide band, but you can use a smaller width as well. Since the buckle is held together by the two pieces hooked into each other, you need to use it with something elastic, ideally a wide rubber band <a href="https://www.aliexpress.com/item/1005003060064141.html?">like this one:</a><br>
-<img src="images/belt.jpg" style="max-width: 150px;"> 
+<img src="images/belt.jpg" style="width: 150px;"> 
 
 <h2 id="dock">Charging dock</h2>
 STL files for the charging dock. <a href="dock">Download here</a><br><br>
@@ -65,7 +68,7 @@ If you are experienced with electronics diy, you will be able to do all of this 
 
 <h2 id="tracker-pcb">Tracker PCB</h2>
 Kicad + gerber files for the PCB fab. <br> The version 1.0 of the PCB is outdated, I made a version 2.0 which is much smaller (about 4x4cm) and has improved design. <a href="tracker-pcb">Download v2.0 here</a> (coming soon)<br><br>
-<img src="images/pcb.jpg" style="max-width: 500px;"> 
+<img src="images/pcb.jpg" style="width: 500px;"> 
 <br>
 I made a simple PCB which allows you to make a SlimeVR tracker by using the off the shelf TP4056 module,  BNO85 (or MPU6050) module and an ESP32, along with lipo battery.
 It adds some extra features the official trackers currently don't have such as automatic shut-off if the trackers detect no movement for a certain period of time.
