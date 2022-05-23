@@ -55,6 +55,8 @@ The voltage will depend on the way you normally charge your tracker. If you are 
 likely set to use 1A of charging current, which would mean that for 5 trackers you would need a power source that can supply at least 5A. If you have say 10 trackers, then getting your hands on a 10A power source could be tricky, so an easy solution is to build 2 separate 5slot docks. (Plus I don't recommend power sources that can output large amounts of current, because remember: light bulb) <br>
 <i>What position i can mount this in?</i><br>
 I recommend either hanging it on the wall or placing it flat on the table. You could probably mount it upside down as well, but you have to test it first.<br>
+<i>Do I have to take the belts off the trackers to charge them?</i><br>
+Nope, you can charge them with the straps on.
 <i>What tracker cases is this compatible with?</i><br>
 Out of the box it's compatible only with my case design (see above), however modifying  other cases to work with it should not be too hard.<br>
 <i>How can I build the dock?</i><br>
