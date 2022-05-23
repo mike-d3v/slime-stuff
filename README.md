@@ -53,20 +53,22 @@ No. The only way to damage the tracker would be to plug it in backwards, and we 
 <i>What sort of power source do I need?</i><br>
 The voltage will depend on the way you normally charge your tracker. If you are using the typical TP4056 charging board and a single cell lipo battery, then 5V will be most likely fine. As for current, that depends on how many chargers you want to charge at the same time. If you didn't change the current setting resistor on your TP4056 module, then it is 
 likely set to use 1A of charging current, which would mean that for 5 trackers you would need a power source that can supply at least 5A. If you have say 10 trackers, then getting your hands on a 10A power source could be tricky, so an easy solution is to build 2 separate 5slot docks. (Plus I don't recommend power sources that can output large amounts of current, because remember: light bulb) <br>
-<i>What position i can mount this in?</i><br>
+<i>What position can I mount this in?</i><br>
 I recommend either hanging it on the wall or placing it flat on the table. You could probably mount it upside down as well, but you have to test it first.<br>
 <i>Do I have to remove the straps from the trackers to charge them on the dock?</i><br>
 Nope, you can charge them with the straps on.<br>
 <i>What tracker cases is this compatible with?</i><br>
 Out of the box it's compatible only with my case design (see above), however modifying  other cases to work with it should not be too hard.<br>
 <i>How can I build the dock?</i><br>
-All you need are some rare earth magnets (4 pieces of round 10x5mm per dock), a copper wire capable of handling your max charging current. The dock is designed to use around 1.3mm dia solid copper wire which can easily handle charging 6 trackers at 6A without breaking a sweat and 
+All you need are some rare earth magnets (4 pieces of round 10x5mm per dock) and a copper wire capable of handling your max charging current. The dock is designed to use around 1.3mm dia solid copper wire which can easily handle charging 6 trackers at 6A without breaking a sweat and 
 should also be able to handle up to 10 trackers, although I i haven't personally tried it. Check the internet to find out maximum safe current for the diameter of the wire you are using. Like I said above, if you have a lot of trackers, then make multiple docks, don't make  a single dock for like 20 trackers, we aren't building an electric welder here.
 When you print the dock, you need to pause the print at the layer height (for example by pasting M600 command into your gcode file, just before the correct layer starts printing), just before the holes get printed over, and insert the magnets, then finish the print, so the magnets get sealed in.
 <br>
 In order for the trackers to work with the dock we need to add two contact rails at the bottom, we will use a copper tape for this (and a diode!) to protect against reverse polarity. We will also need to embed a thin piece of magnetic metal at the bottom of the tracker, so the magnets in the dock can grab onto it. (Using magnets in the tracker case is not recommend, so they don't mess with the IMUs,
 however the magnetic metal you will be using can get magnetized by the magnets, and possibly  mess with the magnetometer on the IMU, although i'm not really sure, so be aware of that. I am using BNOs and haven't noticed any issues so far.)
 If you are experienced with electronics diy, you will be able to do all of this easily, if not, then either let someone help you, or wait for me to make a tutorial, where I show you how to do it properly. Basically  the only danger here is using a power source than can't handle a short, or shorting the power rails with a metal thing and the metal thing getting hot dues to that.
+<i>Any maintenance?</i><br>
+I haven't used the dock for a very long time, but it's possible the contacts could get dirty over time and stop conducting, so you would need to clean them, however since I haven't been using the dock for long I can't say if this will be an issue or not.
 
 <h2 id="tracker-pcb">Tracker PCB</h2>
 Kicad + gerber files for the PCB fab. <br> The version 1.0 of the PCB is outdated, I made a version 2.0 which is much smaller (about 4x4cm) and has improved design. <a href="tracker-pcb">Download v2.0 here</a> (coming soon)<br><br>
