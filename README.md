@@ -69,7 +69,7 @@ however the magnetic metal you will be using can get magnetized by the magnets, 
 If you are experienced with electronics diy, you will be able to do all of this easily, if not, then either let someone help you, or wait for me to make a tutorial, where I show you how to do it properly. Basically  the only danger here is using a power source than can't handle a short, or shorting the power rails with a metal thing and the metal thing getting hot dues to that.
 
 <h2 id="tracker-pcb">Tracker PCB</h2>
-Kicad + gerber files for the PCB fab. <br> The version 1.0 of the PCB is outdated, I made a version 2.0 which is much smaller (about 4x4cm) and has improved design. <a href="tracker-pcb">Download v2.0 here</a> (coming soon)<br><br>
+Kicad + gerber files for the PCB fab. <br> he version 1.0 of the PCB is outdated, I made a version 2.0 which is much smaller (about 4x4cm) and has improved design. <a href="tracker-pcb">Download v2.0 here</a> (coming soon)<br><br>
 <img src="images/pcb.jpg" style="width: 500px;"> 
 <br>
 I made a simple PCB which allows you to make a SlimeVR tracker by using the off the shelf TP4056 module,  BNO85 (or MPU6050) module and an ESP32, along with lipo battery.
