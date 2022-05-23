@@ -80,5 +80,5 @@ Kicad + gerber files for the PCB fab. <br> The version 1.0 of the PCB is outdate
 <br>
 I made a simple PCB which allows you to make a SlimeVR tracker by using the off the shelf TP4056 module,  BNO85 (or MPU6050) module and an ESP32, along with lipo battery.
 It adds some extra features the official trackers currently don't have such as automatic shut-off if the trackers detect no movement for a certain period of time.
-This probably won't be for most people, as it requires you to use and solder some SMD parts as well as a bare ESP32 module, and you can't use a simple USB cable to program it, however I will publish the pcb design files here in case someone wants to use them.
+<br><b>This probably won't be for most people, as it requires you to use and solder some SMD parts as well as a bare ESP32 module, and you can't use a simple USB cable to program it</b>, however I will publish the pcb design files here in case someone wants to use them.
 
