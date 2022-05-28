@@ -23,12 +23,14 @@ The lid for the cases has to be printed while standing on its side, otherwise th
 
 <h2 id="buckles">Belt buckles</h2>
 STL files for the buckles you can use to attach the trackers. <a href="buckles">Download here</a><br><br>
-<img src="images/buckle.jpg" style="width: 300px;">
-<img src="images/buckleExtension.jpg" style="width: 300px;"> 
-<img src="images/chestHarness.jpg" style="width: 300px;"> 
+<p float="left">
+	<img src="images/buckle.jpg" style="width: 300px;"> 
+	<img src="images/buckleExtension.jpg" style="width: 300px;"> 
+	<img src="images/chestHarness.jpg" style="width: 300px;"> 
+
 
 https://user-images.githubusercontent.com/106062742/169873555-18927d53-8dc6-4269-aad9-062308e2c8dd.mp4
-
+</p>
 <br>
 In order to use the trackers, you need some way to attach them to your body. There are several solutions, such as using velcro straps with typical threeprong push-to-release clasps. 
 In my testing I found the best solution to be wide rubber bands, because they keep their tension while at the same time to do so, they don't have to be overtightened, which would make it more uncomfortable to wear. 
