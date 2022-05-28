@@ -25,16 +25,29 @@ The lid for the cases has to be printed while standing on its side, otherwise th
 STL files for the buckles you can use to attach the trackers. <a href="buckles">Download here</a><br><br>
 <img src="images/buckle.jpg" style="width: 300px;">
 <img src="images/buckleExtension.jpg" style="width: 300px;"> 
+<img src="images/chestHarness.jpg" style="width: 300px;"> 
 
 https://user-images.githubusercontent.com/106062742/169873555-18927d53-8dc6-4269-aad9-062308e2c8dd.mp4
 
 <br>
+In order to use the trackers, you need some way to attach them to your body. There are several solutions, such as using velcro straps with typical threeprong push-to-release clasps. 
+In my testing I found the best solution to be wide rubber bands, because they keep their tension while at the same time to do so, they don't have to be overtightened, which would make it more uncomfortable to wear. 
+You could use the quick release clasps, to hook the belt ends together, however I found a simpler and faster solution in the form of a simple hook design, where the clasp is held together by the tension of the belt. 
+This will allow you to easily put the trackers on, or take them off, without having to press any latch release buttons and such.<br>
+<i>Extension case</i><br>
+The files also contain a buckle design with built in housing for an extension IMU, so that way no extra case for it is required, making it more compact.<br>
+<i>Chest harness</i><br>
+You can use a regular case with the belt to wear the chest tracker, but I found it to be too unstable that way. And since the movement of the chest trackers has high impact on the FBT precision it is important for the tracker to be mounted in a stable way. 
+A chest harness is a good solution to this, since it uses 3 separate belts to stabilize the tracker and prevent any unwanted movement. The chest harness design is fully compatible with the charging dock. The harness files will include one with my case design built in, and one with no case, so you can attach your own.
+<br><br>
 
 <b>How to print:</b><br>
 Print both pieces standing on their side. 
 The primary buckle piece needs to have supports under the hook part.
 I recommend using a raft but it's optional.<br>
 There are several sizes of the secondary buckle piece included, I recommend using the one that gives a nice tight fit for the belt you are using, in order to prevent the belt from loosening over time. The best way is to print out all of them and test which one works best for you.
+Belt attached to the hook part of the buckle should simply be pulled through the loop and then sewn shut, the length of the belt can be adjusted in the other piece of the buckle.
+
 <br><br>
 The buckle is designed for a 38mm wide band, but you can use a smaller width as well. Since the buckle is held together by the two pieces hooked into each other, you need to use it with something elastic, ideally a wide rubber band <a href="https://www.aliexpress.com/item/1005003060064141.html?">like this one:</a><br>
 <img src="images/belt.jpg" style="width: 150px;"> 
