@@ -14,8 +14,10 @@ Some of the things in here are WIP so take that into account.
 
 <h2 id="case">Tracker case</h2>
 STL files for the tracker case. <a href="case">Download here</a><br><br>
-<img src="images/case.jpg" style="width: 300px;">
-<img src="images/case_rendered.png" style="width: 550px;"><br>
+<p float="left">
+	<img src="images/case.jpg" style="width: 300px;">
+	<img src="images/case_rendered.png" style="width: 550px;"><br>
+</p>
 
 I got a few requests for the case files for my tracker case, however since the original case is custom designed for my custom PCB, I decided to make a modified version, which is basically the same, except it has been designed to work well with standard DIY parts used to make the trackers, such as the WeMos D1 and MPU6050. 
 The case features a tray design, which I decided to so since I saw this design used in <a href="https://github.com/Smeltie/Hyperion">Smeltie's Hyperion case</a> and liked how simple and easy to use it was. The tray will fit a standard WeMos D1 mini, TP4056 charger module, <a href="https://www.aliexpress.com/wholesale?catId=0&SearchText=SS12D00G3">SS12D00G3 switch</a> (it's a nice small and compact one) 
