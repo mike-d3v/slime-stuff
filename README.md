@@ -13,9 +13,13 @@ Some of the things in here are WIP so take that into account.
 </ul>
 
 <h2 id="case">Tracker case</h2>
-STL files for the tracker case. <a href="cases">Download here</a> (coming soon)<br><br>
-<img src="images/case.jpg" style="width: 300px;"><br>
-The case in the photo is a case I custom designed to be used with my PCB, however since i got a few requests for it, I will make a community version of this that will fit the standard DIY parts that people use to make trackers. <br>
+STL files for the tracker case. <a href="case">Download here</a><br><br>
+<img src="images/case.jpg" style="width: 300px;">
+<img src="images/case_rendered.png" style="width: 550px;"><br>
+
+I got a few requests for the case files for my tracker case, however since the original case is custom designed for my custom PCB, I decided to make a modified version, which is basically the same, except it has been designed to work well with standard DIY parts used to make the trackers, such as the WeMos D1 and MPU6050. 
+The case features a tray design, which I decided to so since I saw this design used in <a href="https://github.com/Smeltie/Hyperion">Smeltie's Hyperion case</a> and liked how simple and easy to use it was. The tray will fit a standard WeMos D1 mini, TP4056 charger module, <a href="https://www.aliexpress.com/wholesale?catId=0&SearchText=SS12D00G3">SS12D00G3 switch</a> (it's a nice small and compact one) 
+and a 1200mah 804040 LiPo battery, which is the one recommended in the pinned post in the DIY section of the discord, its size is 40x40x8mm. If your battery is a different size, you can use it too, however you might for example need to add some extra padding under the tray. Basically, as long as none of the dimensions are bigger than the 40x40x8mm you will be able to fit it in the case.<br>
 This case is compatible with the charging dock.<br><br>
 
 <b>How to print:</b><br>
@@ -39,16 +43,17 @@ This will allow you to easily put the trackers on, or take them off, without hav
 <i>Extension case</i><br>
 The files also contain a buckle design with built in housing for an extension IMU, so that way no extra case for it is required, making it more compact.<br>
 <i>Chest harness</i><br>
-You can use a regular case with the belt to wear the chest tracker, but I found it to be too unstable that way. And since the movement of the chest trackers has high impact on the FBT precision it is important for the tracker to be mounted in a stable way. 
+You can use a regular case with the belt to wear the chest tracker, but I found it to be not sufficiently stable that way. And since the movement of the chest tracker affects the bulk of the body, it's important for it to be mounted in a stable way. 
 A chest harness is a good solution to this, since it uses 3 separate belts to stabilize the tracker and prevent any unwanted movement. The chest harness design is fully compatible with the charging dock. The harness files will include one with my case design built in, and one with no case, so you can attach your own.
 <br><br>
 
 <b>How to print:</b><br>
-Print both pieces standing on their side. 
+Print both buckle pieces standing on their side. 
 The primary buckle piece needs to have supports under the hook part.
 I recommend using a raft but it's optional.<br>
 There are several sizes of the secondary buckle piece included, I recommend using the one that gives a nice tight fit for the belt you are using, in order to prevent the belt from loosening over time. The best way is to print out all of them and test which one works best for you.
-Belt attached to the hook part of the buckle should simply be pulled through the loop and then sewn shut, the length of the belt can be adjusted in the other piece of the buckle.
+Belt attached to the hook part of the buckle should simply be pulled through the loop and then sewn shut, the length of the belt can be adjusted in the other piece of the buckle.<br>
+For the chest harness, print it normally sitting down, on the big flat bottom, with supports under the hooks for the secondary part. If you experience issues with the hooks breaking during use, due to poor layer adhesion, you can try printing it standing on its side, which will considerably increase the hook durability.
 
 <br><br>
 The buckle is designed for a 38mm wide band, but you can use a smaller width as well. Since the buckle is held together by the two pieces hooked into each other, you need to use it with something elastic, ideally a wide rubber band <a href="https://www.aliexpress.com/item/1005003060064141.html?">like this one:</a><br>
